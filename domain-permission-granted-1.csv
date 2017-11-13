@@ -1,0 +1,7 @@
+Package,Component,ID,(6) SMS,(7) LOCATION,(8) BLUETOOTH,
+edu.uci.seal.fungame,LevelUp,0,0,1,0
+edu.uci.seal.fungame,Main,1,0,1,0
+edu.uci.seal.messaging,ListMsgs,2,0,0,1
+edu.uci.seal.messaging,Composer,3,1,0,0
+edu.uci.seal.messaging,Sender,4,1,0,0
+System,SystemService,5,0,0,0

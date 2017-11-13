@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application>
+    <appId>2</appId>
+    <name>FunGame</name>
+    <packageName>edu.uci.seal.fungame</packageName>
+    <versionCode>1.0</versionCode>
+    <versionName>Version 1.0</versionName>
+    <appcategory>Game</appcategory>
+    <appUsesPermissions>
+        <appUsesPermission>ACCESS_FINE_LOCATION</appUsesPermission>
+    </appUsesPermissions>
+    <appActuallyUsesPermissions>
+        <appActuallyUsesPermission>ACCESS_FINE_LOCATION</appActuallyUsesPermission>
+    </appActuallyUsesPermissions>
+    <appRequiredPermissions/>
+    <appDefinedPermissions/>
+    <components>
+        <component>
+            <componentId>104</componentId>
+            <dsmIdx>1</dsmIdx>
+            <compName>Main</compName>
+            <appPackageName>edu.uci.seal.fungame</appPackageName>
+            <type>activity</type>
+            <exported>T</exported>
+            <requiredPrmToAccess></requiredPrmToAccess>
+            <compRequiredPermissions/>
+            <compActuallyUsedPermissions/>
+            <intentFilters/>
+        </component>
+        <component>
+            <componentId>103</componentId>
+            <dsmIdx>0</dsmIdx>
+            <compName>LevelUp</compName>
+            <appPackageName>edu.uci.seal.fungame</appPackageName>
+            <type>service</type>
+            <exported>F</exported>
+            <requiredPrmToAccess></requiredPrmToAccess>
+            <compRequiredPermissions/>
+            <compActuallyUsedPermissions>
+                <compActuallyUsedPermissionsn>ACCESS_FINE_LOCATION</compActuallyUsedPermissionsn>
+            </compActuallyUsedPermissions>
+            <intentFilters/>
+        </component>
+    </components>
+</application>

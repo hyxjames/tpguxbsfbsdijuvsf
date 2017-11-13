@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<analysisResult>
+    <privilegeEscalationInstances>
+    	<privilegeEscalationInstance>
+    	<senderDsmIdx> DSM ID of the sender component, i.e., the malicious component </senderDsmIdx>
+    	<receiverDsmIdx> DSM ID of the receiver component </receiverDsmIdx>
+    	<resourceDsmIdx> DSM ID of the receiver component </resourceDsmIdx>
+    	</privilegeEscalationInstance>
+    </privilegeEscalationInstances>
+    <intentSpoofingInstances>
+        <intentSpoofingInstance>
+            <rComponent> This is the malicious sender component. This is a component element with same structure as in the app-package.name.xml file</rComponent>
+            <sComponent> This is the victim receiver component. This is a component element with same structure as in the app-package.name.xml file</sComponent>
+            <xComponent> This is the legitimate component that suppose to communicate with the rComponent</xComponent>
+        </intentSpoofingInstance>
+    </intentSpoofingInstances>
+    <unauthorizedIntentReceiptInstances>
+        <unauthorizedIntentReceiptInstance>
+            <rComponent> This is the victim sender component. This is a component element with same structure as in the app-package.name.xml file</rComponent>
+            <sComponent>This is the malicious receiver component.This is a component element with same structure as in the app-package.name.xml file</sComponent>
+            <xComponent>This is the legitimate component that should receive the Intent from the victim component.</xComponent>
+        </unauthorizedIntentReceiptInstance>
+    </unauthorizedIntentReceiptInstances>
+</analysisResult>
